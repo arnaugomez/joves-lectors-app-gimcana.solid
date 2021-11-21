@@ -1,8 +1,8 @@
-import {StringAnswer} from "./answers/StringAnswer";
+import { FinalAnswer, StringAnswer } from "./answers/AnswerTypes";
 
 export interface Question {
-  name: string
-  description?: string
+  name: string;
+  description?: string;
   /** Answer can be of many types: string, checkbox, number... */
-  answer: StringAnswer
+  answer: StringAnswer | FinalAnswer;
 }

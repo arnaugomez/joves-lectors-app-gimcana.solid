@@ -37,6 +37,14 @@ const quiz1: Quiz = {
         value: "Z",
       },
     },
+    {
+      name: "Gràcies per participar",
+      description: "Esperem que us hagi agradat.",
+      answer: {
+        type: AnswerType.FINAL,
+        value: "",
+      },
+    },
   ],
 };
 
@@ -76,6 +84,14 @@ const quiz2: Quiz = {
         value: "Z",
       },
     },
+    {
+      name: "Gràcies per participar",
+      description: "Esperem que us hagi agradat.",
+      answer: {
+        type: AnswerType.FINAL,
+        value: "",
+      },
+    },
   ],
 };
 
@@ -113,6 +129,14 @@ const quiz3: Quiz = {
       answer: {
         type: AnswerType.TEXT,
         value: "Z",
+      },
+    },
+    {
+      name: "Gràcies per participar",
+      description: "Esperem que us hagi agradat.",
+      answer: {
+        type: AnswerType.FINAL,
+        value: "",
       },
     },
   ],

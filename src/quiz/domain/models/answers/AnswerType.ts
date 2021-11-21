@@ -1,3 +1,4 @@
 export enum AnswerType {
-  TEXT
+  TEXT,
+  FINAL,
 }
